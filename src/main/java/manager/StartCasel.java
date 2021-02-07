@@ -23,7 +23,7 @@ public enum StartCasel {
                 .setDefaultPrefix("/")
                 .build();
 
-        JDA jda = JDABuilder.createDefault("ODA2MjY3MDIzMzE1MTczMzc3.YBm8rg.DTilyylxIWIqVXm8oMSp94Cl9B8")
+        JDA jda = JDABuilder.createDefault("yourbottokens")
                 .setActivity(Activity.watching("In 2 Server" + " | /help"))
                 .addEventListeners(new CommandListener(commandService))
                 .build();
