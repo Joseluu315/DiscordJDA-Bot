@@ -29,7 +29,7 @@ public enum StartCasel {
                 .build();
 
         //Set Tokens And Register Listener
-        JDA jdabuilder = JDABuilder.createDefault("ODA2MjY3MDIzMzE1MTczMzc3.YBm8rg.s9or0PvDFZmgYXp73Br9kkxyPjo")
+        JDA jdabuilder = JDABuilder.createDefault("yourtokensbots")
                 .addEventListeners(new CommandListener(commandService))
                 .addEventListeners(new FilterListener())
                 .build();
