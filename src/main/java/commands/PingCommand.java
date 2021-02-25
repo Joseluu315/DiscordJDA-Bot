@@ -18,7 +18,7 @@ public class PingCommand implements Command {
     @Override
     public void execute(CommandContext ctx) throws Exception {
         final long time = System.currentTimeMillis();
-        ctx.getChannel().sendMessage(String.format("> Pong!")).queue(response -> {
+        ctx.getChannel().sendMessage("> Pong!").queue(response -> {
             response.editMessageFormat("Pong! My ping is `%d ms`", System.currentTimeMillis() - time).queue();
         });
 
